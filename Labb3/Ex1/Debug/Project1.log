@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\algorithm(1443): warning C4244: '=': conversion from 'int' to 'char', possible loss of data
+  c:\users\adaga376\labb3\ex1\project1\source.cpp(30): note: see reference to function template instantiation '_OutIt std::transform<std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>,std::_String_iterator<std::_String_val<std::_Simple_types<_Ty>>>,int(__cdecl *)(int)>(const _InIt,const _InIt,_OutIt,_Fn)' being compiled
+          with
+          [
+              _OutIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Ty=char,
+              _InIt=std::_String_iterator<std::_String_val<std::_Simple_types<char>>>,
+              _Fn=int (__cdecl *)(int)
+          ]
+  Project1.vcxproj -> C:\Users\adaga376\Labb3\Ex1\Debug\Ex1.exe
